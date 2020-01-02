@@ -56,11 +56,13 @@ body{
 
 }
 .search-icon{
-    width: 90px;
+    width: 50px;
     margin-left: auto;
     margin-right:0%;
-    content: url(./img/search.png);
 
+}
+.search-icon:hover{
+   width: 85px;
 }
 .searcharea{
     height: 20vh;
@@ -68,6 +70,7 @@ body{
     text-align: center;
     border:none;
     color: #232B36;
+    margin-left: 35px;
 }
 .items{
     padding-top: 10px;
@@ -123,5 +126,11 @@ body{
     font-size: 48px;
 }
 .submit{
+    margin-top: 24px;
+}
+.login-icon:hover{
+    width: 100px;
+}
+.part2border{
     margin-top: 24px;
 }

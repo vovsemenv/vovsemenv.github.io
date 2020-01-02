@@ -12,13 +12,20 @@
 <body>
         
 <div class="bg">
+    <a href="./login.html">
     <div class="login-icon"></div>
+    </a>
     <div class="part1">LET'S BUY</div>
 </div>
 <div class="part2border">
     <input type="text" class="searcharea" value="SOMETHING">
-    <img class="search-icon" src="../static/img/search.png" alt="">
-</div>
+        
+            <img class="search-icon" src="../static/img/search.png" alt="">
+            <script>
+            searchitem   = document.querySelector(".search-icon");
+searchitem.addEventListener("click",()=>{document.location.href = `./search.html?${searchitem.value}`})
+            </script>
+    </div>
 
 </body>
 </html>
