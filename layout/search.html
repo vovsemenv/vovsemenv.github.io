@@ -14,7 +14,10 @@
     <div class="bg-all">
             <div class="logo">$TEMPNAME$ </div>
             <div class="login-icon"></div>
-            
+            <script>
+                login_icon = document.querySelector(".login-icon");
+                login_icon.addEventListener("click",()=>{document.location.href = `./login.html`})
+            </script>
             <div class="items">
                 <div class="item">
                     <img class="item-img" src="../static/img/boot.png" alt="">
