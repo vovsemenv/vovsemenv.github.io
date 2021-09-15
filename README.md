@@ -1,24 +1,6 @@
-# vovsemenv.github.io
+# НПА 256
 
-## Project setup
+## Может ли член уик обнять избирателя
 ```
-yarn install
+Да
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
